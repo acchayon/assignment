@@ -1,0 +1,83 @@
+
+/* universal part */
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+/* header part design */
+.header{
+    background-image: url(../images/banner/banner3.png);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.header-section{
+    text-align: right;
+    padding: 216px 230px 350px 700px;
+    
+}
+.title-text{
+    font-weight: 700;
+    font-size: 50px;
+    color: #FFFFFF;
+    text-align: right;
+}
+.title-paragraph{
+    margin: 25px 0 32px 0;
+    color: #FFFFFF;
+}
+.btn-primary{
+    padding: 20px 25px;
+    color: #005FAC;
+    background-color: white;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+/* myself-section design */
+.myself-section{}
+.myself{
+    display: flex;
+    align-items: center;
+    margin: 0 150px;
+}
+.my-title{
+    font-weight: 800;
+    font-size: 40px;
+    color: #151414;
+    margin-right: 180px;
+}
+.my-paragraph{
+    color: #444343;
+    margin-top: 25px;
+}
+.my-list{
+    margin-top: 16px;
+    color: #444343;
+}
+/* plan section design */
+.plan-section{
+    margin-top: 50px;
+}
+.my-title{
+    text-align: center;
+}
+/* skill section */
+.skill-section{}
+.skill-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 230px;
+}
+.skill-text{
+    margin-top: 30px;
+}
+.skill-h{
+    font-weight: 700;
+    font-size: 25px;
+}
+.skill-p{
+    margin-top: 16px;
+    color: #737272;
+}
