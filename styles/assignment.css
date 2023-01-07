@@ -56,6 +56,9 @@
     margin-top: 16px;
     color: #444343;
 }
+.my-list li{
+    list-style: none;
+}
 /* plan section design */
 .plan-section{
     margin-top: 50px;
@@ -101,5 +104,79 @@
 }
 .btn-primary{
     margin-left: 60px;
+    margin-top: 30px;
+}
+
+/* bonus form section design */
+.form-section{
+    margin: 100px 310px;
+    box-sizing: border-box;
+    background: #FFF4D6;
+    gap: 0px;
+
+}
+.form{
+    padding: 76px 200px;
+}
+#u-name{
+    padding: 14px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #AA9F9F;
+}
+.btn{
+    padding: 17px 15px;
+    border: 0;
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+}
+
+/* footer section design */
+.footer-content{
+    background: #151414;
+    display: flex;
+    padding: 150px 200px;
+    gap: 300px;
+}
+.f-title{
+    color: white;
+    font-weight: 700;
+    font-size: 45px;
+}
+.f-para{
+    color: white;
+    margin-top: 15px;
+}
+.f-p{
+    margin-top: 15px;
+    color: white;
+}
+.f-img{
+    margin-top: 30px;
+    padding-right: 60px;
+}
+/* footer form section */
+.footer-form .f-title{
+    font-weight: 600;
+    font-size: 25px;
+}
+#f-form{
+    padding: 20px 50px;
+    margin-top: 25px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid white;
+    background-color:#151414;
+}
+.f-btn{
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background-color: #005FAC;
+    border: 0;
+    border-radius: 5px;
+    padding: 20px 30px;
     margin-top: 30px;
 }
